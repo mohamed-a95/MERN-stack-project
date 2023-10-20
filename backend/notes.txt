@@ -1,0 +1,22 @@
+Så jag skulle säga att processen för att köra en MERN-stack projekt ser
+ute enligt följande
+
+1. ta fram skelettet beträffande endpoints med något enkel console.log som 
+response, initiera servern
+
+2. ordna mongo db databas i mongo db atlas
+
+3 ordna routes för api endpoints
+
+4. connecta db och routes med server.js
+
+5. ta fram en schema(hur den naya objekten ska framställas och
+se ut i databasen) samt model(hur det ska hanteras vid de olika requesten)
+
+8. framställa metoder som visar hur de ska hantera databasen vid anrop.
+DEtta görs genom att ordna funktionerna i controllers\ som sedan
+exporteras till workoutRouter
+
+
+9. Börjar med reactsidan och tar fram frontend där man sedan får koppla med
+api:et
