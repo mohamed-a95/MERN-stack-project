@@ -20,3 +20,11 @@ exporteras till workoutRouter
 
 9. Börjar med reactsidan och tar fram frontend där man sedan får koppla med
 api:et
+
+
+En proxy-server fungerar som en mellanhand mellan din 
+frontendapplikation och din backendserver. 
+Du kan använda en proxy för att omdirigera HTTP-förfrågningar 
+från din frontend till din backend och hantera problem som kan 
+uppstå med CORS-policyer. Detta kan vara särskilt användbart när 
+din frontend och backend körs på olika domäner eller portar.

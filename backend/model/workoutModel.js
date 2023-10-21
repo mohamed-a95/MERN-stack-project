@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const { stringify } = require("querystring");
 
 //Schema
 const Schema = mongoose.Schema;
